@@ -1,0 +1,86 @@
+h1, [id="description"]{
+    text-align: center;
+    margin: 1em auto;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid black;
+    max-width: 600px;
+    min-width: 200px;
+}
+
+form {
+    width: auto;
+    max-width: 600px;
+    min-width: 200px;
+    margin: auto;
+    padding: 1rem;
+    border: 2px dashed yellow;
+}
+
+body {
+    background-color: rgb(39, 0, 71);
+    color: cyan;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.Sex {
+    text-align: center;
+}
+
+[id="Detalii"] {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+[id="name"], [id="email"], [id="number"] {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.butoane {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titlu2 {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25px;
+    padding-top: 1px;
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+.statut {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    text-align: center;  
+}
+
+.optiuni, [id="dropdown"] {
+    display: flex;
+    align-items: center;
+}
+
+textarea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 50px;
+}
+
